@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .outer {
+                display: flex;
+                gap: 12px;
+                background: #1DD;
+                padding: 12px 24px;
+            }
+            .inner {
+                padding: 12px;
+            }
+            .inner:nth-child(1) {
+                background: #f97316;
+            } 
+            .inner:nth-child(2) {
+                background: #84cc16;
+            } 
+            .inner:nth-child(3) {
+                background: #ef4444;
+            } 
+            .justify-end { 
+                justify-content: flex-end; 
+            }
+            .justify-center {
+                justify-content: center;
+            }
+            .space-between {
+                justify-content: space-between;
+            }
+            .items-center { 
+                justify-content: center; 
+            }
+            body {
+                display: flex;
+                flex-direction: column;
+                gap: 20px; /* I'm causing there to be 20 pixels between each child, but not above the first or after the last element */
+            }
+        </style>
+    </head>
+    <body>
+        <div class="outer">
+            <div class="inner">Part of outer one, inner 1</div>
+            <div class="inner">Part of outer one, Inner 2</div>
+            <div class="inner">Part of outer one, Inner 3</div>
+          </div>
+          <div class="outer justify-end">
+            <div class="inner">Part of outer one, inner 1</div>
+            <div class="inner">Part of outer one, Inner 2</div>
+            <div class="inner">Part of outer one, Inner 3</div>
+          </div>
+          <div class="outer justify-center">
+            <div class="inner">Part of outer one, inner 1</div>
+            <div class="inner">Part of outer one, Inner 2</div>
+            <div class="inner">Part of outer one, Inner 3</div>
+          </div>
+          <div class="outer space-between">
+            <div class="inner">Part of outer one, inner 1</div>
+            <div class="inner">Part of outer one, Inner 2</div>
+            <div class="inner">Part of outer one, Inner 3</div>
+          </div>
+          <div class="outer justify-center items-center">
+            <div class="inner">Part of outer one, inner 1</div>
+          </div>
+
+    </body>
+</html>
