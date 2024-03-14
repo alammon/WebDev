@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Tule Girl</title>
+
+    <style>
+        /* .cover {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        nav img {
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+            z-index: 9999;
+        } */
+    </style>
+    <script>
+        function showAlertMessage() {
+            alert("Plz don't leave");
+        }
+        function changeContent() {
+            const myParagraph = document.getElementById("my-paragraph");
+            myParagraph.innerHTML = 'test';
+
+        }
+    </script>
+</head>
+
+<body class="flex-col gap-y-12 p-24">
+        <button
+        onclick="showAlertMessage()"
+        class="px-4 py-4 bg-indigo-100 hover:bg-indigo-200 active: bf-indigo-300 shadow-md transition-all cursor-pointer border-0 rounded-md">Button
+        1</button>
+        <button
+        onclick="changeContent()"
+        class="px-4 py-4 bg-indigo-100 hover:bg-indigo-200 active: bf-indigo-300 shadow-md transition-all cursor-pointer border-0 rounded-md">Button
+        2</button>
+        <p class = "p-12 bg-stone-100 mt-12" id ="my-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores earum natus quaerat magni amet voluptatibus qui, id, rem nemo est doloremque. Cumque enim repellendus dicta debitis repellat mollitia, ullam assumenda.</p>
+</body>
+
+</html>
