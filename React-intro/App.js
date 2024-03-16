@@ -5,8 +5,6 @@ function App() {
         <div className="p-12">
           <Header />
           <Main />
-          <Content paragraph="lorum"/>
-          <Content paragraph="lorum"/>
         </div>
         <Footer />
       </div>

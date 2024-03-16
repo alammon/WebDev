@@ -14,15 +14,9 @@ function Card({ image, title }) {
           consequatur delectus tenetur, culpa possimus debitis autem voluptatum?
         </p>
         <div className="flex gap-x-4">
-          <span className="bg-sky-200 py-2 px-4 rounded-full hover:bg-sky-300 transition-all cursor-pointer active:bg-indigo-300">
-            #photography
-          </span>
-          <span className="bg-sky-200 py-2 px-4 rounded-full hover:bg-sky-300 transition-all cursor-pointer active:bg-indigo-300">
-            #travel
-          </span>
-          <span className="bg-sky-200 py-2 px-4 rounded-full hover:bg-sky-300 transition-all cursor-pointer active:bg-indigo-300">
-            #winter
-          </span>
+          <Pill info="#Photography" />
+          <Pill info="#travel" />
+          <Pill info="#doggie" />
         </div>
       </div>
     </div>
