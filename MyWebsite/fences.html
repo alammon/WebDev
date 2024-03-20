@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lammon Fencing</title>
+    <!-- libraries -->
+    <!-- <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- components -->
+    <!-- <script src="./Button.js" type="text/babel"></script>
+    <script src="./App.js" type="text/babel"></script>
+    <script src="./Navbar.js" type="text/babel"></script> -->
+    <style>
+        .bord {
+            -webkit-text-stroke: 1.5px black;
+            /* width and color */
+            font-family: sans;
+            color: #fed7aa;
+        }
+
+        .bord2 {
+            -webkit-text-stroke: 1px black;
+            /* width and color */
+            font-family: sans;
+            color: white;
+        }
+
+        .images {
+            object-fit: fit;
+            height: 600px;
+            padding: 25px 50px 75px 100px;
+            filter: brightness(70%);
+            background-size: cover;
+        }
+
+    </style>
+</head>
+
+<body>
+    <nav class="flex justify-between bg-orange-100 p-5 items-center  top-0 shadow-lg">
+        <div class="logo bg-white rounded-full p-5 hover:scale-105 transition-all cursor-pointer">
+            <img class="object-cover w-10 h-10" src="images/Hammer.jpg" alt="Page logo" />
+        </div>
+            <button
+                class="px-12 py-2 justify-center bg-white hover:bg-orange-200 active:bg-orange-300 shadow-md transition-all cursor-pointer border-0 rounded-lg font-mom font-md"><a href="index.html">Home</a>
+            </button>
+        <div class="flex gap-x-4 items-center">
+            </a>
+            <button
+                    class="px-3 py-2 bg-white hover:bg-orange-200 active:bg-orange-300 shadow-md transition-all cursor-pointer border-0 rounded-lg font-mom font-md"><a href="about.html">About us</a>
+            </button>
+            <button
+                    class="px-3 py-2 bg-orange-300 hover:bg-orange-200 active:bg-orange-300 shadow-md transition-all cursor-pointer border-0 rounded-lg font-mom font-md"><a href="fences.html">Fences</a>
+            </button>
+            <button
+                    class="px-3 py-2 bg-white hover:bg-orange-200 active:bg-orange-300 shadow-md transition-all cursor-pointer border-0 rounded-lg font-mom font-md"><a href="gates.html">Gates</a>
+            </button>
+        </div>
+    </nav>
+    <div class="px-12 py-12">
+        <header id="fence" class="flex flex-col text-center py-18 gap-y-4">
+            <h1 class="text-5xl font-bold bord pt-20">Lammon Fencing</h1>
+            <h2 class="text-3xl font-bold bord2">Crafted with Heart</h2>
+        </header>
+        <main class="mt-12">
+            <div class="">
+                <h3 class=" text-3xl text-center bord font-bold pt-8 p-6">Fences</h3>
+                <div class="w-full max-w-5xl p-5 pb-10 mx-auto mb-10 gap-5 columns-3 space-y-5">
+                    <img src="images/Fences/Fence1.png"/>
+                    <img src="images/Fences/Fence2.png"/>
+                    <img src="images/Fences/Fence3.png"/>
+                    <img src="images/Fences/Fence4.png"/>
+                    <img src="images/Fences/Fence5.png"/>
+                    <img src="images/Fences/Fence6.png"/>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
