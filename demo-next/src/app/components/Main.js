@@ -1,16 +1,20 @@
 import Card from './Card'
+import IMG1 from 'demo-next/public/IMG1.jpg'
+import IMG2 from 'demo-next/public/IMG2.jpg'
+import IMG3 from 'demo-next/public/IMG3.jpg'
+
 const cards = [
   {
     title: 'Me And Tule',
-    img: 'demo-next/src/app/components/images/IMG1.jpeg',
+    img: IMG1,
   },
   {
     title: 'Pretty Dog',
-    img: 'demo-next/src/app/components/images/IMG2.jpeg',
+    image: IMG2,
   },
   {
     title: 'Water Dog',
-    img: 'demo-next/src/app/components/images/IMG3.jpeg',
+    image: IMG3,
   },
 ]
 
