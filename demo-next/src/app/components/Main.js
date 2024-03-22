@@ -6,15 +6,15 @@ import IMG3 from 'demo-next/public/IMG3.jpg'
 const cards = [
   {
     title: 'Me And Tule',
-    img: IMG1,
+    IMG1,
   },
   {
     title: 'Pretty Dog',
-    image: IMG2,
+    img: IMG2,
   },
   {
     title: 'Water Dog',
-    image: IMG3,
+    IMG3,
   },
 ]
 
