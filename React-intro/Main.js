@@ -1,15 +1,17 @@
+import Card from "./Card";
+
 const cards = [
   {
     title: "Me And Tule",
-    img: "React-intro/images/IMG1.jpeg",
+    img: "/images/IMG1.jpg",
   },
   {
     title: "Pretty Dog",
-    img: "React-intro/images/IMG2.jpeg",
+    img: "/images/IMG2.jpg",
   },
   {
     title: "Water Dog",
-    img: "React-intro/images/IMG3.jpeg",
+    img: "/images/IMG3.jpg",
   },
 ];
 
