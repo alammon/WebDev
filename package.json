@@ -1,5 +1,13 @@
 {
   "devDependencies": {
     "prettier": "^3.2.5"
+  },
+  "dependencies": {
+    "@mdx-js/loader": "^3.0.1",
+    "@mdx-js/react": "^3.0.1",
+    "@next/mdx": "^14.2.1",
+    "@tailwindcss/typography": "^0.5.12",
+    "@types/mdx": "^2.0.13",
+    "next-mdx-remote": "^4.4.1"
   }
 }
