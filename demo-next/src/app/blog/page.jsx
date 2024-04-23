@@ -1,5 +1,5 @@
 import PostsList from '../components/PostsList.js'
 
-export default async function BlogHome() {
+export default function BlogHome() {
   return <PostsList />
 }
